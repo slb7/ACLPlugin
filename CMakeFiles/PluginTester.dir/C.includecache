@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/plugin/PluginTester.c
+stdio.h
+-
+config.h
+-
+mosquitto.h
+-
+mosquitto_plugin.h
+-
+
+config.h
+
+mosquitto.h
+stdbool.h
+-
+
+mosquitto_plugin.h
+

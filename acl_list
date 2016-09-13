@@ -1,0 +1,13 @@
+security_default.c:	if(context->bridge) return MOSQ_ERR_SUCCESS;
+security_default.c:	if(!context->acl_list && !db->acl_patterns) return MOSQ_ERR_ACL_DENIED;
+security_default.c:	if(context->acl_list){
+security_default.c:		acl_root = context->acl_list->acl;
+security_default.c:	clen = strlen(context->id);
+security_default.c:		if(acl_root->ucount && !context->username){
+security_default.c:		if(context->username){
+security_default.c:			ulen = strlen(context->username);
+security_default.c:					strncpy(s, context->id, clen);
+security_default.c:				}else if(context->username && acl_root->topic[i+1] == 'u'){
+security_default.c:					strncpy(s, context->username, ulen);
+security_default.c:	/* As we're freeing ACLs, we must clear context->acl_list to ensure no
+security_default.c:		context->acl_list = NULL;

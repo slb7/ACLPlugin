@@ -1,0 +1,9 @@
+# This affects access control for clients with no username.
+topic read $SYS/#
+
+# This only affects clients with username "roger".
+user val
+topic foo/bar
+
+# This affects all clients.
+pattern read /quote/%u/baseline

@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/PluginTester.dir/PluginTester.c.o  -o PluginTester -rdynamic libp.so -Wl,-rpath,/home/ubuntu/plugin 

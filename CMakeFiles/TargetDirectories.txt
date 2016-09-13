@@ -1,0 +1,4 @@
+/home/ubuntu/plugin/CMakeFiles/AclTester.dir
+/home/ubuntu/plugin/CMakeFiles/PluginTester.dir
+/home/ubuntu/plugin/CMakeFiles/hashtest.dir
+/home/ubuntu/plugin/CMakeFiles/p.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -g   -shared -Wl,-soname,libp.so -o libp.so CMakeFiles/p.dir/Plugin.c.o CMakeFiles/p.dir/security_default.c.o 

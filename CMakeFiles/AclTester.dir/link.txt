@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/AclTester.dir/AclTester.c.o CMakeFiles/AclTester.dir/security_default.c.o  -o AclTester -rdynamic 

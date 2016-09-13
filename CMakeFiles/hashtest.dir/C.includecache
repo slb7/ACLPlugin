@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/plugin/hashtest.c
+stdio.h
+-
+uthash.h
+-
+
+uthash.h
+string.h
+-
+stddef.h
+-
+stdlib.h
+-
+inttypes.h
+-
+
